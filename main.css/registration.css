@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+html, body{
+    min-height: 100vh;
+    max-height: 100vh;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+.header{
+
+}
+.header-image{
+    width: 30%;
+    height: 30%;
+}

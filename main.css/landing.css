@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    min-width: 100%;
+    box-sizing: border-box;
+}
+html, body{
+    background-color: #fff;
+    min-height: 100vh;
+    max-height: 100vh;
+    padding: 50px;
+} 
+/* header */
+header{
+    background-color: rgb(240, 227, 229); 
+    width: 90%; 
+    margin: 0 auto; 
+    height: 70vh;
+}
+.header{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+#tittle{
+    margin-top: 5px;
+}
+.header-content{
+    text-align: center;
+    width: 80%;
+}
+.header-link{
+    text-align: center;
+    
+}
+.main-heading{
+text-align: center;
+background-color: pink;
+}

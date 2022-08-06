@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    min-width: 100%;
+    box-sizing: border-box;
+}
+html, body{
+    margin: 0 aut0;
+    max-height: 100vh;
+    min-height: 100vh;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-around;
+    
+}
+img{
+    width: 20%;
+    height: 20%;
+}
+.flag-icon{
+    display: flex;
+    width: 50%;
+    height: 50%;
+    /* background-color: bisque; */
+    /* justify-content: space-around; */
+}

@@ -103,9 +103,7 @@ main{
     gap: 10;
 
 }
-.banner-content > div{
-    
-}
+
 .one{
     background-color: red;
     border-radius: 20px;
@@ -203,21 +201,23 @@ main{
     color: red;
     padding: 7px;
     border-radius: 15px;
-    font-size: large;
+    /* font-size: large; */
     margin-left: 260px;
 }
 .button-container{
-    display: flex;
-    flex-direction: row;
+    /* display: flex; */
+    /* flex-irection: row; */
     margin-left: 260px;
     justify-content: space-around;
+    padding: 5px;
 }
 .button-three{
     width: 12%;
     background-color:transparent;
     border-color: #fff;
     color: #fff;
-    padding: 2px;
+    font-size: small;
+    /* padding: 2px; */
     border-radius: 15px;
     /* margin-left: 260px; */
     /* display: flex; */
@@ -234,7 +234,7 @@ main{
     width: 12%;
     background-color: red;
     color: #fff;
-    padding: 2px;
+    /* padding: 2px; */
     border-radius: 15px;
     /* margin-left: 260px; */
     /* display: flex; */
@@ -250,7 +250,7 @@ main{
     width: 12%;
     background-color: red;
     color: #fff;
-    padding: 2px;
+    /* padding: 2px; */
     border-radius: 15px;
     /* margin-left: 260px; */
     /* display: flex; */
@@ -260,4 +260,54 @@ main{
     width: 40px;
     height: 40px;
     margin-right: 5em;
+}
+
+#list-heading{
+    padding: 50px;
+    text-align: start;
+}
+#list-heading > p{
+    color: red;
+}
+#list-image{
+    width: 120px;
+    height: 120px;
+    margin-left: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+.question > p{
+    color: red;
+}
+.more-question{
+    padding: 7px;
+    
+}
+table, tbody, tr, td{
+    border: 1px solid blueviolet;
+    width: 500px;
+    margin-left: 30%;
+}
+td{
+    text-align: left;
+}
+td > p{
+    margin-left: 3%;
+}
+.question > p > a{
+    background-color: red;
+    color: #fff;
+    width: 230px;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: small;
 }

@@ -12,7 +12,6 @@ html, body{
 .logo{
     display: flex;
     justify-content: space-around;
-    
 }
 img{
     width: 20%;

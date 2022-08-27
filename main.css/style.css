@@ -1,170 +1,131 @@
 *{
-    margin: 0px;
-    min-width: 100%;
+    padding: 0;
+    max-width: 100%;
+    margin: 0;
     box-sizing: border-box;
 }
+
 html, body{
     min-height: 100vh;
     max-height: 100vh;
-    background-color: #f1e8e8;
+    /* max-width: 100%; */
+    text-align: center;
+    font-family: sans-serif;
     padding: 50px;
-} 
-/* header */
+}
 header{
-    width: 90%; 
-    margin: 0 auto; 
-    height: 60vh;  
+    /* background-color: #fce7e8; */
 }
-
 .header{
-    text-align: center;
-    font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
+    padding-top: 8%;
 }
-#link{
+#header-link1{
+    text-decoration: none;
+    color: red;
+}
+.header-link2{
+    text-decoration: none;
+    color: red;
+}
+.header-link3{
+    text-decoration: none;
     color: red;
 }
 
-.header-content{
-    text-align: center;
-    width: 100%;
+.nav{
+
 }
-.header-link{
-    justify-content: space-between;
-    /* display: flex; */
-    text-align: center;
-}
-#link-one{
+
+#nav-link1{
+    text-decoration: none;
     background-color: red;
-    border: none;
-    padding: 5px;
-    text-align: center;
-    text-decoration: none;
+    padding: 7px;
     color: #fff;
-    font-size: 13px;
-    /* width: 50%; */
 }
-
-#link-two{
-    background-color: transparent;
+#nav-link2{
+    text-decoration: none;
+    background-color: #fff;
+    padding: 7px;
+    color: red;
     border: 1px solid red;
-    padding: 5px;
-    text-align: center;
-    text-decoration: none;
-    color: red;
-    font-size: 13px;
-    margin-left: 10px;
 }
-/* #tittle{
-    margin-top: 5px;
-}  */
 
-main{
-    width: 80%;
-    background-color: white;
+.main-container{
+    margin: 20%;
+    color: rgb(77, 75, 75);
 }
-.main-heading{
-    text-align: center;
-    background-color: pink;
-    width: 100%;
-    padding: 60px;
+.main-container > #parg{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.content-one{
-    /* margin: 0 auto; */
-    text-align: center;
+.containerbox{
     display: flex;
-    flex-direction: column;
-    background-color: pink;
+    text-align: left;
+}
+
+.container-content{
     padding: 20px;
+    color: gray;
 }
-.content-tittle-one{
-    background-color: #fff;
-    height: 40px; 
-    width: 50px;
-    padding: 10px;
-    text-align: center;
+.container-content > p{
+    text-align: left;
 }
-#link-1{
+#container-link{
     text-decoration: none;
     color: red;
 }
-.content-two{
-    margin: 0 auto;
-    text-align: center;
+.container-content2{
+    padding: 20px;
+    color: gray;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-content2 > p{
+    text-align: left;
+}
+#container-link2{
+    text-decoration: none;
+    color: red;
+}
+
+.container-content3{
+    padding: 20px;
+    color: gray;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-content3 > p{
+    text-align: left;
+}
+#container-link3{
+    text-decoration: none;
+    color: red;
+}
+
+.containerbox2{
     display: flex;
-    flex-direction: column;
-    background-color: pink;
-    padding: 20px;
+    margin-top: 30%;
+    color: rgb(100, 99, 99);
+    /* flex-direction: row; */
+    text-align: left;
+    padding: -30%;
+    justify-content: space-between;
 }
-.content-tittle-two{
-    background-color: #fff;
-    /* height: 70px;  */
-    padding: 7px;
-    
-}
-#link-2{
-    text-decoration: none;
-    color: red;
-}
-
-.content-three{
-    margin: 0 auto;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    background-color: pink;
-    padding: 20px;
-}
-.content-tittle-three{
-    background-color: #fff;
-    /* height: 70px;  */
-    padding: 7px;
-    
-}
-#link-3{
-    text-decoration: none;
-    color: red;
-}
-
-.footer-head{
-    font-family: sans-serif;
-    text-align: center;
-}
-.sub-head{
-    color: red;
-    font-weight: 500;
-}
-
-.contact{
-    font-family: sans-serif;
-    text-align: center;
+.bottom-store >p{
+    color: rgb(236, 86, 86)
 }
 #contact-email{
+    color: rgb(236, 86, 86);
     text-decoration: none;
-    color: red;
+    font-size: 14px;
+}
+.contact-us > a{
+    text-decoration: none;
+}
+.contact-us > a > img{
+    width: 30px;
 }
 
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px; 
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 100%;
-}
-.fa:hover{
-    opacity: 0.7;
-}
-.fa-facebook{
-    background-color: #3b5998;
-    color: #fff;
-}
-.fa-twitter{
-    background-color: #55acee;
-    color: white;
-}
-
-.end-content{
-    text-align: center;
+.end{
+    margin-bottom: 5%;
 }
